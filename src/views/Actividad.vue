@@ -17,39 +17,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Establecimiento y manejo de cultivos piscícolas en aguas cálidas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la piscicultura en aguas cálidas, incluyendo sistemas de producción, calidad del agua, manejo sanitario y buenas prácticas piscícolas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué es la piscicultura continental?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Cultivo de peces en aguas marinas abiertas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Cría de peces en aguas dulces interiores.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Producción exclusiva de peces ornamentales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Captura de peces en ríos naturales.',
               esCorrecta: false,
             },
           ],
@@ -58,30 +57,29 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál es una ventaja de la piscicultura continental?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Depende totalmente de la pesca artesanal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'No requiere manejo sanitario constante.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Permite eliminar el uso de alimento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Facilita el control del sistema productivo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -89,28 +87,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Qué sistema piscícola utiliza mayor tecnificación?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Piscicultura extensiva.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Piscicultura artesanal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Piscicultura superintensiva.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Piscicultura tradicional.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +118,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál especie presenta alta adaptabilidad y rápido crecimiento?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Bocachico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Bagre rayado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Carpa común.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tilapia (Oreochromis spp.).',
               esCorrecta: false,
             },
           ],
@@ -150,28 +148,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué rango de temperatura favorece especies de aguas cálidas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '10 °C a 18 °C.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '18 °C a 22 °C.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '24 °C a 32 °C.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '35 °C a 40 °C.',
               esCorrecta: false,
             },
           ],
@@ -180,30 +179,29 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué criterio favorece la comercialización de una especie?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Capacidad de excavación del suelo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Nivel de evaporación del estanque.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Cantidad de sedimentos del agua.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Aceptación comercial del pescado.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -212,28 +210,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué parámetro del agua es esencial para la respiración de los peces?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Conductividad eléctrica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Nivel de salinidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Oxígeno disuelto.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cantidad de fósforo.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +240,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuál es el rango ideal de pH en piscicultura?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: '6.5 a 8.5.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '3.0 a 5.0.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '5.5 a 6.0.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '9.0 a 10.5.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +270,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Qué color del agua indica exceso de algas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Transparente brillante.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verde intenso.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Azul intenso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Gris metálico.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +300,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué puede indicar un olor a huevo podrido en el agua?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Presencia de alimento fresco.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Alta oxigenación natural.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Presencia de sulfuro de hidrógeno.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Correcta aireación del sistema.',
               esCorrecta: false,
             },
           ],
@@ -315,19 +330,28 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué ocurre con una densidad excesiva de peces?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Mejora totalmente la oxigenación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Disminuye el estrés en peces.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reduce el consumo de alimento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aumenta el riesgo de enfermedades.',
               esCorrecta: true,
             },
           ],
@@ -336,19 +360,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué instrumento se utiliza para medir la turbidez?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Disco de Secchi.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Anemómetro digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Termómetro flotante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Microscopio óptico.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +390,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Cuál es el suelo más recomendado para piscicultura?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Suelo arenoso seco.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Suelo franco arcilloso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Suelo rocoso compacto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Suelo gravilloso fino.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +420,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué prueba evalúa la plasticidad del suelo?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Prueba del oxígeno.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Prueba del color.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Prueba del anillo.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Prueba del estanque.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +450,179 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué acción ayuda a prevenir enfermedades en piscicultura?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Sobrealimentar diariamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir completamente el agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar el estrés del pez.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mantener agua limpia y oxigenada.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué medida corresponde a bioseguridad?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desinfectar herramientas y equipos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incrementar residuos orgánicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar controles sanitarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Permitir ingreso libre de animales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué debe hacerse antes de liberar los alevinos?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Introducirlos inmediatamente al estanque.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Flotar las bolsas sobre el agua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir totalmente el oxígeno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Vaciar el agua de transporte.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué porcentaje de recambio parcial de agua es recomendado?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '1 % a 5 %.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '50 % a 80 %.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '10 % a 30 %.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '90 % a 100 %.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué parámetro influye directamente en el metabolismo del pez?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Color del estanque.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Forma del terreno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Altura de las compuertas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Temperatura del agua.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué favorece el manejo responsable del cultivo?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso eficiente del recurso hídrico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Uso indiscriminado de químicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Vertimiento de residuos al agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminación del monitoreo diario.',
               esCorrecta: false,
             },
           ],
