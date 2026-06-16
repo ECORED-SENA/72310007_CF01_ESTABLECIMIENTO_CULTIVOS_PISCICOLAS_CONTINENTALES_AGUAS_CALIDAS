@@ -81,7 +81,7 @@
               .row(titulo="Requisitos del agua").ajuste-cajaAcordion
                 p.mb-3 El agua debe ser limpia, no termal y contar con caudal constante para mantener condiciones estables en el sistema productivo.
               .row(titulo="Aspectos técnicos clave").ajuste-cajaAcordion
-                p.mb-3 Antes de construir se debe calcular el volumen del estanque, estimar el consumo de agua y considerar pérdidas por evaporación y filtración.
+                p.mb-3 Antes de construir, se debe calcular el volumen del estanque, estimar el consumo de agua y considerar pérdidas por evaporación y filtración.
               .row(titulo="Parámetros básicos").ajuste-cajaAcordion
                 p.mb-3 El oxígeno debe mantenerse por encima de 5 mg/L, el pH entre 6.5 y 8.5 y la temperatura entre 24 °C y 30 °C. Alteraciones en estos parámetros generan estrés y mortalidad.
         <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
@@ -178,7 +178,7 @@
               .row.align-items-center
                 .col-lg.mb-4.mb-lg-0
                   h3 Llenado
-                  p.mb-0 Llenar lentamente el estanque y utilizar mallas o filtros para evitar ingreso de peces silvestres y depredadores.
+                  p.mb-0 Llenar lentamente el estanque y utilizar mallas o filtros para evitar el ingreso de peces silvestres y depredadores.
                 .col-auto(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/temas/img124.png', alt='' style="width: 300px").m-auto
@@ -200,7 +200,7 @@
     Separador
     #t_6_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.6 Verificación de condiciones para la siembra
-    p.mb-5 Antes de realizar la siembra es necesario verificar que las condiciones del sistema sean adecuadas.
+    p.mb-5 Antes de realizar la siembra, es necesario verificar que las condiciones del sistema sean adecuadas.
     .row.justify-content-center.mb-5
       .col-xl-8
         .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")

@@ -140,7 +140,7 @@ export default {
             {
               id: 'd',
               texto: 'Tilapia (Oreochromis spp.).',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

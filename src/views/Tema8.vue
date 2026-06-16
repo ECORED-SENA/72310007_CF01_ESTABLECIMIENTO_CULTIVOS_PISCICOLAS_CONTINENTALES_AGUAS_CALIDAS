@@ -194,7 +194,7 @@
                 h4.mb-4 Pódcast
                 TarjetaAudio.color-acento-contenido.mb-3(
                   texto="Control, seguimiento y mejora continua del sistema productivo en piscicultura"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/Control_seguimiento_mejora_continua_sistema_productivo_piscicultura.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
           .col-xl-auto.d-none.d-xl-block

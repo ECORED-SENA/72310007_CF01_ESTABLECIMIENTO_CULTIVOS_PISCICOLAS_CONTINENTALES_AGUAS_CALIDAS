@@ -61,7 +61,7 @@
                   .col-8
                     img(src='@/assets/curso/temas/img9.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Alta productividad
-                p.mb-0.text-center Permite obtener mayor producción por unidad de superficie en comparación con otras actividades pecuarias
+                p.mb-0.text-center Permite obtener mayor producción por unidad de superficie en comparación con otras actividades pecuarias.
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8

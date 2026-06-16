@@ -61,7 +61,7 @@
           img(src="@/assets/curso/temas/img24.svg" style="max-width: 60px").m-auto
       .col
         h3 pH
-    p.mb-5 El rango ideal está entre 6.5 y 8.5. Valores extremos afectan la salud de los peces y pueden causar la muerte.
+    p.mb-5 El rango ideal está entre 6.5 y 8.5. Los valores extremos afectan la salud de los peces y pueden causar la muerte.
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
       h5 Figura 3.
       span Escala de pH y niveles de acidez y alcalinidad en estanques piscícolas
@@ -109,7 +109,7 @@
                 li.mb-0
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
-                  | #[b Disminución al amanecer:] durante las primeras horas del día el pH disminuye.
+                  | #[b Disminución al amanecer:] durante las primeras horas del día, el pH disminuye.
                 li.mb-0
                   span.fa-li
                     i.fas.fa-arrow-alt-circle-right
@@ -215,32 +215,32 @@
               .lista-ol--cuadro__vineta
                 span A
               | 
-              p.mb-0 Elaboración del disco se recorta un disco de madera de aproximadamente 25 cm de diámetro.
+              p.mb-0 Elaboración del disco: se recorta un disco de madera de aproximadamente 25 cm de diámetro.
             li 
               .lista-ol--cuadro__vineta
                 span B
               | 
-              p.mb-0 División del disco se trazan dos líneas perpendiculares para formar cuatro partes.
+              p.mb-0 División del disco: se trazan dos líneas perpendiculares para formar cuatro partes.
             li 
               .lista-ol--cuadro__vineta
                 span C
               | 
-              p.mb-0 Pintura los segmentos se pintan de blanco y negro con pintura mate.
+              p.mb-0 Pintura los segmentos: se pintan de blanco y negro con pintura mate.
             li 
               .lista-ol--cuadro__vineta
                 span D
               | 
-              p.mb-0 Perforación central se realiza un orificio en el centro del disco para pasar la cuerda.
+              p.mb-0 Perforación central: se realiza un orificio en el centro del disco para pasar la cuerda.
             li 
               .lista-ol--cuadro__vineta
                 span E
               | 
-              p.mb-0 Colocación del peso se fija un peso pequeño debajo del disco.
+              p.mb-0 Colocación del peso: se fija un peso pequeño debajo del disco.
             li 
               .lista-ol--cuadro__vineta
                 span F
               | 
-              p.mb-0 Marcación de la cuerda	la cuerda debe marcarse cada 10 cm.
+              p.mb-0 Marcación de la cuerda:	la cuerda debe marcarse cada 10 cm.
           p.mb-5 En lugar de utilizar una cuerda, el disco puede fijarse a una vara vertical graduada de aproximadamente 100 cm de largo.
           .box___style_1.fix___box_1-3.p-5(data-aos="zoom-in")
             p.mb-0 La turbidez debe medirse entre las 9:00 a. m. y las 3:00 p. m., preferiblemente en días soleados y con alta intensidad lumínica.
@@ -350,7 +350,7 @@
                     img(src='@/assets/curso/temas/img70.svg', alt="" style="max-width: 100px").m-auto
                 h4.text-center Indirecto para laboratorio
                 p.mb-0.text-center El agua se transporta en un recipiente hasta el laboratorio.
-    p.mb-5 Independientemente del método utilizado, se debe garantizar limpieza de los materiales, evitar agitación del agua y registrar la hora, el lugar y el procedimiento utilizado durante el muestreo.
+    p.mb-5 Independientemente del método utilizado, se debe garantizar la limpieza de los materiales, evitar la agitación del agua y registrar la hora, el lugar y el procedimiento utilizado durante el muestreo.
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
       h4.mb-0 Instrumento simple de muestreo de agua
     p.mb-5 Para construir un instrumento simple de muestreo se deben considerar los siguientes elementos:
@@ -384,7 +384,7 @@
               span.fa-li
                 i.fas.fa-arrow-alt-circle-right
               | Marcación de la cuerda	facilita identificar la profundidad de muestreo.
-          p.mb-4 También es posible fijar la botella a un soporte de madera mediante una banda o cinta de caucho, incorporando un mango que facilite la inmersión en el agua
+          p.mb-4 También es posible fijar la botella a un soporte de madera mediante una banda o cinta de caucho, incorporando un mango que facilite la inmersión en el agua.
           figure(data-aos="zoom-in")
             img(src='@/assets/curso/temas/img72.png', alt='').m-auto
     <!------------------------------------------ SUBTEMA 2 ------------------------------------------>

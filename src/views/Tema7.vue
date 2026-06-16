@@ -85,7 +85,7 @@
                     img(src='@/assets/curso/temas/img137.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Tiempo de traslado
                 p.mb-0.text-center Se recomienda que el transporte no supere las 6 horas en condiciones normales.
-            p.mb-0 La aplicación adecuada de estas medidas reduce mortalidad y favorece una mejor adaptación al cultivo.
+            p.mb-0 La aplicación adecuada de estas medidas reduce la mortalidad y favorece una mejor adaptación al cultivo.
             <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
             Separador
             #t_7_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")

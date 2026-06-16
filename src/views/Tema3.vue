@@ -21,8 +21,8 @@
         p.mb-5 A continuación, se presenta un video sobre las Buenas Prácticas Piscícolas (BPP), orientado a comprender su importancia en la producción acuícola segura, eficiente y sostenible.
         figure(data-aos="zoom-in")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption.fit___figcaption-video #[b Video]. Importancia de las Buenas Prácticas Piscícolas (BPP)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/BIaKdDhddK0" title="Importancia de las Buenas Prácticas Piscícolas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption.fit___figcaption-video #[b Video]. Importancia de las Buenas Prácticas Piscícolas
     <!------------------------------------------ SUBTEMA 2 ------------------------------------------>
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -43,7 +43,7 @@
               .row(titulo="Normativa ambiental del Ministerio de Ambiente (Decreto 1076 de 2015)").ajuste-cajaAcordion
                 p.mb-3 Regula el uso del agua y el manejo de vertimientos.
               .row(titulo="Lineamientos del INVIMA").ajuste-cajaAcordion
-                p.mb-3 Establecen condiciones relacionadas con inocuidad alimentaria.
+                p.mb-3 Establecen condiciones relacionadas con la inocuidad alimentaria.
               .row(titulo="Recomendaciones de la FAO").ajuste-cajaAcordion
                 p.mb-3 Promueven prácticas de acuicultura responsable.
         p.mb-0 Estas normas regulan aspectos como el uso de medicamentos, manejo de residuos, calidad del agua y bienestar animal.
