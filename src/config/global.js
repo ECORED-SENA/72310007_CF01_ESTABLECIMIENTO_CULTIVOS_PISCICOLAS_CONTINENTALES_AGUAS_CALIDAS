@@ -386,7 +386,7 @@ export default {
         'cantidad de oxígeno disponible en el agua para la respiración de los peces.',
     },
     {
-      termino: 'PH',
+      termino: 'pH',
       significado:
         'medida que indica el nivel de acidez o alcalinidad del agua.',
     },

@@ -59,7 +59,7 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Proximidad al mercado
-                p.mb-0 Reduce costos de transporte, facilita la venta de pescado fresco y disminuye pérdidas postcosecha.
+                p.mb-0 Reduce costos de transporte, facilita la venta de pescado fresco y disminuye pérdidas poscosecha.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/temas/img115.png', alt='' style="max-width: 500px").m-auto

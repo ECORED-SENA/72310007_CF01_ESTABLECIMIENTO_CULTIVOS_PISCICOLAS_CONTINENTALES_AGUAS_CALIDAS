@@ -170,7 +170,7 @@
                 td.texto-left Elevada
       .col-xl-7
         .box___style_1.fix___box_1-4(data-aos="fade-left")
-          p.mb-0 #[b La turbidez por microorganismos] es consecuencia de altas poblaciones de plancton y zooplancton. En estos casos, el agua adquiere tonalidades verde, verde azulado o marrón amarillento. #[b La turbidez húmica] se produce por presencia de materia orgánica en descomposición. El agua adquiere color marrón oscuro. Esta condición puede originarse por el agua que abastece el estanque o por exceso de fertilización.
+          p.mb-0 #[b La turbidez por microorganismos] es consecuencia de altas poblaciones de plancton y zooplancton. En estos casos, el agua adquiere tonalidades verde, verde azulado o marrón amarillento. #[b La turbidez húmica] se produce por la presencia de materia orgánica en descomposición. El agua adquiere color marrón oscuro. Esta condición puede originarse por el agua que abastece el estanque o por exceso de fertilización.
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
       h4.mb-0 Medición de la turbidez
     p.mb-5 La turbidez puede evaluarse de manera práctica mediante observación directa en el estanque.
@@ -199,13 +199,13 @@
                     i.fas.fa-arrow-alt-circle-right
                   | #[b Nivel muy por encima del codo:] la turbidez es baja.
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
-      h4.mb-0 Medición de turbidez con disco de Secchi 
-    p.mb-5 También puede utilizarse el disco de Secchi para medir la turbidez del agua. Para elaborar y utilizar el disco de Secchi se deben seguir las siguientes indicaciones:
+      h4.mb-0 Medición de turbidez con disco de #[i Secchi ]
+    p.mb-5 También puede utilizarse el disco de #[i Secchi] para medir la turbidez del agua. Para elaborar y utilizar el disco de #[i Secchi] se deben seguir las siguientes indicaciones:
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-5.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
           h5 Figura 6.
-          span Construcción artesanal de un disco Secchi
+          span Construcción artesanal de un disco #[i Secchi]
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/img65.png', alt='Imagen sobre construcción artesanal de un disco Secchi con divisiones blancas y negras para medir transparencia y turbidez del agua en piscicultura. ').m-auto
       .col-xl
@@ -225,7 +225,7 @@
               .lista-ol--cuadro__vineta
                 span C
               | 
-              p.mb-0 Pintura los segmentos: se pintan de blanco y negro con pintura mate.
+              p.mb-0 Pintura de los segmentos: se pintan de blanco y negro con pintura mate.
             li 
               .lista-ol--cuadro__vineta
                 span D
@@ -257,7 +257,7 @@
       .col-xl-7
         .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
           h5 Figura 8.
-          span Uso del disco Secchi para medir la transparencia del agua
+          span Uso del disco #[i Secchi] para medir la transparencia del agua
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/img67.png', alt='Imagen del uso del disco Secchi para medir la transparencia del agua en estanques piscícolas mediante inmersión vertical del instrumento. ').m-auto
     .row.justify-content-center.mb-5
@@ -270,7 +270,7 @@
             thead
               tr
                 th.ajuste-border-tabla.texto-left Resultado
-                th.texto-left Turbidez según disco de Secchi
+                th.texto-left Turbidez según disco de #[i Secchi]
             tbody
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla.texto-left.text-weight-bold Menor a 40 cm
@@ -288,7 +288,7 @@
         .row.justify-content-center.mb-5
           .col-xl-6.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
             .box___style_3.p-5.text-white.h-100
-              p.mb-4 Para controlar la turbidez mineral pueden utilizarse las siguientes alternativas:
+              p.mb-4 Para controlar la turbidez mineral, pueden utilizarse las siguientes alternativas:
               ul.fa-ul.estilo___ul.mb-0
                 li.mb-2
                   span.fa-li
@@ -304,7 +304,7 @@
                   | #[b Sulfato de aluminio o sulfato de magnesio:] puede utilizarse en proporción de 1 a 3 kg/100 m², realizando previamente una prueba en una superficie pequeña.
           .col-xl-6.col-md-9.mb-4.mb-lg-0(data-aos="fade-left")
             .box___style_4.p-5.h-100
-                p.mb-4 Para controlar la turbidez ocasionada por plancton se pueden aplicar las siguientes medidas:
+                p.mb-4 Para controlar la turbidez ocasionada por plancton, se pueden aplicar las siguientes medidas:
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-2
                     span.fa-li
@@ -313,7 +313,7 @@
                   li.mb-2
                     span.fa-li
                       i.fas.fa-arrow-alt-circle-right
-                    | #[b Encalado adecuado:] ayuda a mantener equilibrio en el sistema.
+                    | #[b Encalado adecuado:] ayuda a mantener el equilibrio en el sistema.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-arrow-alt-circle-right
@@ -554,7 +554,7 @@
                 .row.justify-content-center.align-items-center
                   .col-xl-6.mb-4
                     h4 Prueba de retención de agua (capacidad de infiltración)
-                    p.mb-0 Esta prueba permite evaluar la capacidad del suelo para retener agua dentro del estanque. Consiste en cavar un hoyo de aproximadamente de 30 cm de profundidad, llenarlo completamente con agua, revisarlo en la noche, volver a llenarlo, cubrirlo con ramas o material vegetal y revisarlo al día siguiente. Si el agua se vacía completamente, existe alta filtración y el suelo no es apto; si disminuye parcialmente, presenta retención media que requiere mejora; y si mantiene la mayor parte del agua, el suelo es adecuado para estanques.
+                    p.mb-0 Esta prueba permite evaluar la capacidad del suelo para retener agua dentro del estanque. Consiste en cavar un hoyo de aproximadamente 30 cm de profundidad, llenarlo completamente con agua, revisarlo en la noche, volver a llenarlo, cubrirlo con ramas o material vegetal y revisarlo al día siguiente. Si el agua se vacía completamente, existe alta filtración y el suelo no es apto; si disminuye parcialmente, presenta retención media que requiere mejora; y si mantiene la mayor parte del agua, el suelo es adecuado para estanques.
                   .col-xl-6
                     .titulo-sexto.color-acento-contenido.mb-2
                       h5 Figura 14.
@@ -594,7 +594,7 @@
               figure
                 img(src='@/assets/curso/temas/img88.jpg', alt='').m-auto
     .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
-      h4.mb-0 Relación suelo – calidad del agua
+      h4.mb-0 Relación suelo calidad del agua
     p.mb-5 El suelo influye directamente sobre las condiciones fisicoquímicas del agua dentro del estanque.
     .row.justify-content-center.mb-5
       .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
